@@ -66,7 +66,7 @@ const bottomNavOptions=new Map([['home',0],['achievements',1],['skills',2]])
   return (
     <div className={classes.App}style={{backgroundColor:props.theme.themeProperties.backgroundColor}}>
     <Switch>
-     {/* <Route exact path="/"  render={routeProps=> <Splashscreen {...routeProps} /> }/>   */}
+     
   
      <Route exact path="/">  <Redirect to="/home"/> </Route>
     <Route exact path="/home" render={routeProps=>

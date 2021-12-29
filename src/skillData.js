@@ -4,7 +4,7 @@ export default [
     {name:"React JS", value:"80"},
     {name:"HTML", value:"80"},
     {name:"CSS/SASS/JSS", value:"80"},
-    {name:"Jquery", value:"60"},
+    {name:"JQuery", value:"60"},
     {name:"Bootstrap/ Material UI", value:"70"},
     {name:"Node JS -Express", value:"50"},
     {name:"PWA", value:"60"},

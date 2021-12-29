@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+    width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+    
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}

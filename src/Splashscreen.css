@@ -1,0 +1,38 @@
+
+  @media only screen and (max-width: 600px) {
+    .Splashscreen{
+    background: url("https://lh3.googleusercontent.com/0PdjrBd7cWr0Ufg9d8WRzS51cce-vQTNfYR24gusHGFjtrJUDkr_2X_VbBCBJUSaoT7Ga_Dm-IEUieo7xKQ2z1lZvDLr88Nyxpx2qbDFf9BzcC8wDXMEMhAAuv3Judkdv8LKeSfIsw=w2400");
+    background-repeat: no-repeat;
+ 
+    background-attachment: fixed;
+     background-position: center bottom;
+     background-size: 100% 100%;
+     width:100%;
+     height: 100vh;
+  
+  
+  
+  }
+}
+  @media only screen and (max-width: 1300px) {
+    .Splashscreen{background: url("https://lh3.googleusercontent.com/W1qM2LNPmEGawqWtxQdS2iU8S5KhQ4EHg8B1T4F320tL6iRFULYR3ffC39aEIatRDsELeXBpCco1CsvAmwHPzJYFnNw7Kliy8uYKKBo8CoXit99xSSrinv1LehpaDDfOcri6YDPn6w=w2400");
+    background-repeat: no-repeat;
+ 
+    background-attachment: fixed;
+     background-position: center bottom;
+     background-size: 100% 100%;
+     width:100%;
+     height: 100vh;
+  }
+}
+  @media only screen and (min-width: 1300px) {
+    .Splashscreen{background: url("https://lh3.googleusercontent.com/_CmpeRSCOfmVM2xTw1SdMm7PPnBCqOzEIpLYZWzqoBGYcWeaVth2cyCmsSbhGa695dP74Kn1rKq6RCWm1ARvV-PTTcodc-Tr78tqHLRxgNfC1xB3utJc6T1UozjNoKILr-TUatdVDw=w2400");
+    background-repeat: no-repeat;
+ 
+    background-attachment: fixed;
+     background-position: center bottom;
+     background-size: 100% 100%;
+     width:100%;
+     height: 100vh;
+  }
+}

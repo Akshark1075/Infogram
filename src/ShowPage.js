@@ -62,15 +62,21 @@ const goHome=()=>history.push('/home')
           <Typography gutterBottom variant="h5" component="div" style={{color:"#f50057"}}>
             {currentProject.projectName}
           </Typography>
-          <Typography variant="body2" className={classes.otherColor}>
+          <Typography variant="subtitle1" className={classes.otherColor}>
             {currentProject.projectDescription}
           </Typography>
           <br/>
-          <Typography variant="body2"  className={classes.otherColor}>
+          <Typography variant="subtitle1"  className={classes.otherColor}>
             <b> URL :</b> <a href={currentProject.url}>{currentProject.url}</a>
           </Typography>
-          <Typography variant="body2" className={classes.otherColor}>
+          <Typography variant="subtitle1" className={classes.otherColor}>
             <b>Github URL:</b> <a href={currentProject.githubUrl}>{currentProject.githubUrl}</a>
+          </Typography>
+          <Typography variant="subtitle1"  className={classes.otherColor}>
+            <b>Responsive:</b> {currentProject.responsive}
+          </Typography>
+          <Typography variant="subtitle1"  className={classes.otherColor}>
+            <b>Best Viewed in:</b> {currentProject.compatibleDevices}
           </Typography>
         </CardContent>
       </CardActionArea>
@@ -81,7 +87,7 @@ const goHome=()=>history.push('/home')
         </Button>
 }
 {currentIndex<projectList.length - 1 &&
-        <Button size="small" color="primary" onClick={next} style={{color:props.theme.themeProperties.color}}>
+        <Button size="medium" color="primary" onClick={next} style={{color:props.theme.themeProperties.color}}>
           Next
         </Button>
 }

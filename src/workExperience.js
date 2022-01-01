@@ -61,6 +61,13 @@ return(
            
             Oct 2018-Present
               </Typography>
+              <Typography gutterBottom variant="p" className={classes.otherColor}>
+           A software engineer with {getExp()} of experience in design, development and maintenance of software applications for mobile and web platform, bagging expertise in web and iOS application development.  
+              
+              </Typography>
+              <Typography gutterBottom variant="p" className={classes.otherColor}>
+       I work under the role of Deputy Application Manager, managing several iOS and android mobile applications for Novartis Pharma AG. I have been working on application management, bug fixes and minor enhancements of iOS and hybrid mobile applications. I also work on React based web applications. Apart from this, I took up the additional responsibility of making automations as a part of transformation activities. I was really successful in automating some of the key processes and I received the Infosys Insta award for setting up a benchmark performance. 
+              </Typography>
               </div>
               </div>
           </CardContent>

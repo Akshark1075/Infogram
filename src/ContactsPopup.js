@@ -61,27 +61,27 @@ function ContactsPopup(props) {
           <DialogContentText style={{color:props.theme.themeProperties.otherColor}}>
             Linked in:
 
-          <Link  onClick={handleClose} color="primary" className={classes.links} to="https://www.linkedin.com/in/arvind-k-0402ab150/"style={{display:"block"}}target="_blank" rel="noreferrer">
+          <a  onClick={handleClose} color="primary" className={classes.links} href="https://www.linkedin.com/in/arvind-k-0402ab150/"style={{display:"block", width:"100%"}}target="_blank" rel="noreferrer">
           https://www.linkedin.com/in/arvind-k-0402ab150/
-          </Link>
+          </a>
           </DialogContentText>
          </DialogActions>
           <Divider style={{width:"100%", backgroundColor:"#f50057"}}/>
 
           <DialogActions>
-          <DialogContentText style={{color:props.theme.themeProperties.otherColor}}>
+          <DialogContentText style={{color:props.theme.themeProperties.otherColor,width:"100%"}}>
           Email:
-          <Link onClick={handleClose} color="primary" className={classes.links} to="mailto:arvind.007as@gmail.com"style={{display:"block"}}>
+          <a onClick={handleClose} color="primary" className={classes.links} href="mailto:arvind.007as@gmail.com"style={{display:"block", width:"100%"}}>
            arvind.007as@gmail.com
-          </Link>
+          </a>
           </DialogContentText>
           </DialogActions>
           <Divider style={{width:"100%",backgroundColor:"#f50057"}}/>
-          <DialogActions>
+          <DialogActions style={{width:"100%"}}>
           
-          <DialogContentText style={{color:props.theme.themeProperties.otherColor}}>
+          <DialogContentText style={{color:props.theme.themeProperties.otherColor, width:"100%"}}>
           Mobile:
-          <Button onClick={()=>{navigator.clipboard.writeText("+919952922719"); handleClose()}} color="primary" className={classes.links}  style={{display:"block"}}>
+          <Button onClick={()=>{navigator.clipboard.writeText("+919952922719"); handleClose()}} color="primary" className={classes.links}  style={{display:"block", width:"100%"}}>
             +91 9952922719
           </Button>
           </DialogContentText>

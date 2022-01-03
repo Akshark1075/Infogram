@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   toolBar:{paddingLeft:"25px",
     paddingRight:"25px"},
   menuButton: {
-    marginRight: theme.spacing(2),
+    // marginRight: theme.spacing(2),
   },
   title: {
     flexGrow: 1,

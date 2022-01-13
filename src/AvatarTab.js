@@ -64,13 +64,14 @@ return size<700? {width:"60%",justifyContent:"flexStart"}:{display:"flex",width:
       return size<550?{
         fontSize:"1rem",
       }:""
-      }
+      },
+      
   }))
   
 export default withThemeContext(function IconLabelTabs(props) {
    
     const [windowDimensions, setWindowDimensions] = useState(window.innerWidth);
-    const classes = useStyles(windowDimensions);
+    const classes = useStyles(windowDimensions,props);
 useEffect(() => {
   function handleResize() {
     setWindowDimensions(window.innerWidth);
@@ -118,8 +119,8 @@ useEffect(() => {
     </div>
     </div>
     <div style={{"display":"flex","margin":"20px"}}>
-    <p style={{}} className={classes.githubLinkSm}>
-      <Link to="https://github.com/Akshark1075"> 
+    <p className={classes.githubLinkSm}>
+      <Link to={{pathname:"https://github.com/Akshark1075"}}target="_blank" > 
       https://github.com/Akshark1075
       </Link>
       </p>

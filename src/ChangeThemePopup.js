@@ -12,7 +12,7 @@ import { withThemeContext } from './ThemeProvider';
 import { Divider } from '@material-ui/core';
 import WbSunnyIcon from '@material-ui/icons/WbSunny';
 import NightsStayIcon from '@material-ui/icons/NightsStay';
-import MoodIcon from '@material-ui/icons/Mood';
+// import MoodIcon from '@material-ui/icons/Mood';
 
 const useStyles = makeStyles((theme) => ({
 icon:{
@@ -96,9 +96,9 @@ function ResponsiveDialog(props) {
           </DialogContentText>
         
           </DialogActions>
-          <Divider style={{width:"100%",backgroundColor:"#f50057",display:"none"}} />
+          {/* <Divider style={{width:"100%",backgroundColor:"#f50057",display:"none"}} />
      
-          <DialogActions style={{color:props.theme.theme==="light theme"?"":props.theme.themeProperties.color, width:"100%",display:"flex",justifyContent:"center", display:"none"}}>
+          <DialogActions style={{color:props.theme.theme==="light theme"?"":props.theme.themeProperties.color, width:"100%",display:"flex",justifyContent:"center"}}>
           
            
           <DialogContentText className={classes.links}>
@@ -108,7 +108,7 @@ function ResponsiveDialog(props) {
            </DialogContentText>
        
     
-         </DialogActions>
+         </DialogActions> */}
        
           </DialogContent>
         

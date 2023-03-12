@@ -12,7 +12,6 @@ import ChangeThemePopup from './ChangeThemePopup';
 import HomeContent from "./HomeContent"
 import {Switch, Route,Redirect} from 'react-router-dom'
 import ShowPage from './ShowPage'
-import Splashscreen from './Splashscreen'
 import { withThemeContext } from './ThemeProvider';
 import Skills from './Skills'
 const useStyles = makeStyles((theme) => ({

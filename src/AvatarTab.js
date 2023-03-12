@@ -100,7 +100,7 @@ useEffect(() => {
     </div>
     <div className={classes.highlights} style={{"display":"flex","width":"70%"}}>
     <Typography variant="h5" className={classes.smallBoldFont}style={{color:props.theme.theme==="light theme"?"":props.theme.themeProperties.otherColor}}>
-            {getExp()}
+            {getExp('2018-10-08')}
         </Typography>
       <Typography variant="h6" className={classes.smallFont}>
         Work Exp

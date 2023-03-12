@@ -5,7 +5,7 @@ import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 import { makeStyles } from '@material-ui/core/styles';
 import { withThemeContext } from './ThemeProvider';
-import getExp from "./getExp"
+import workExp from './workExpData';
 const useStyles = makeStyles((theme) => ({
     row:{
         display:"flex",
@@ -27,52 +27,56 @@ const useStyles = makeStyles((theme) => ({
   },
   otherColor:(props)=>{return{
    
-  color:props.theme.themeProperties.otherColor}
+  color:props.theme.themeProperties.otherColor,  textAlign:'justify'}
+
   }
 }))
 function WorkExperience(props){
   const classes=useStyles(props)
   
 return(
-<Card className={classes.colors}>
+  <>
+  {workExp.map(work=>
+<Card className={classes.colors} key={work.companyName}>
           <CardActionArea className={classes.colors}>
            <CardContent className={classes.colors}>
             <div className={classes.row}>
-           <img src="/static/images/avatar/Infosys.svg" width="100px" alt="Infosys logo"  className={classes.workLogo}/>
+           <img src={work.imgSrc} width="100px" alt={work.altText}  className={classes.workLogo}/>
            <div className={classes.column}>
             <Typography gutterBottom variant="h5" >
            
-              Infosys
+              {work.companyName}
               </Typography>
               <Typography gutterBottom variant="subtitle1" className={classes.otherColor} >
            
-              {getExp()}
+              {work.experience}
               </Typography>
             
               <Typography gutterBottom variant="h6" className={classes.otherColor} >
            
-              Technology Analyst
+              {work.designation}
               </Typography>
               <Typography gutterBottom variant="subtitle1"className={classes.otherColor} >
            
-              Full-time
+              {work.type}
               </Typography>
               <Typography gutterBottom variant="subtitle1" className={classes.otherColor}>
            
-            Oct 2018-Present
+            {work.period}
               </Typography>
               <Typography gutterBottom variant="body1" className={classes.otherColor}>
-           A software engineer with {getExp()} of experience in design, development and maintenance of software applications for mobile and web platform, bagging expertise in web and iOS application development.  
-              
+           {work.shortDescription}
               </Typography>
               <Typography gutterBottom variant="body1" className={classes.otherColor}>
-       I work under the role of Deputy Application Manager, managing several iOS and android mobile applications for Novartis Pharma AG. I have been working on application management, bug fixes and minor enhancements of iOS and hybrid mobile applications. I also work on React based web applications. Apart from this, I took up the additional responsibility of making automations as a part of transformation activities. I was really successful in automating some of the key processes and I received the Infosys Insta award for setting up a benchmark performance. 
-              </Typography>
+       {work.description}              </Typography>
               </div>
               </div>
           </CardContent>
           </CardActionArea>
         </Card>
+        )}
+        </>
 )
+
 }
 export default withThemeContext(WorkExperience)

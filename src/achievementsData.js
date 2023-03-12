@@ -1,4 +1,4 @@
-export default [
+const achievementData=[
     {title:"Infosys Insta Award", description:"Won the Infosys Insta Award for setting up a benchmark performance at work", logo:"https://lh3.googleusercontent.com/dMOgHfY3m1TKIAMY7dKg2aOh8P3P5O47In66g_gW6fX5zxGdAdxFawriYyCQBM76AlOVa6gLQCD__2rDSx9gYQGbKQr6h23unDzyQTMyFvbHE4suVRMleWpePggZjTC20LMGezOvpw=w2400"},
     {title:"Udemy Certification", description:"Successfully completed my Udemy Certification on Full Stack web development through a course called Web developer bootcamp by Colt Steele. It was an intensive course which covers a wide range of web development technologies namely HTML5, CSS3,JS, JQuery, Node JS (Express), Mongo db etc. ",logo:"https://lh3.googleusercontent.com/pVf665a1UELvJje_0eBdHbvXbnDgAIRsfK_TKxN4Xo54V5OgvVFmATtlMmz-n8tiVQIHnHlnEtBEAIC2VqZJ2zq0Lm03ln2_vXCJiP1OJvsb_xlIWVT6Sls7ea-3EAHYTpNa7Y3_qw=w2400"},
     {title:"Infosys Certification", description:"Successfully completed my certification on Front end web development at Infosys",logo:"https://lh3.googleusercontent.com/dMOgHfY3m1TKIAMY7dKg2aOh8P3P5O47In66g_gW6fX5zxGdAdxFawriYyCQBM76AlOVa6gLQCD__2rDSx9gYQGbKQr6h23unDzyQTMyFvbHE4suVRMleWpePggZjTC20LMGezOvpw=w2400"},
@@ -11,3 +11,4 @@ export default [
     {title:"Intra School Volleyball competition", description:"I am an enthusiastic participant in Intra school sports events. I am happy to be a part of the team that won the Intra School Volleyball competitions thrice",logo:"https://lh3.googleusercontent.com/oUFCFZTaQWL-s-pQoeHQUzSDHzvedGYdDdhtlzA0cy5dG5qqwgxSsIbwdwhm399WHIiftyUrK-0C0x3fQiKaVzE7dGcPzmvvZegsPHqzfOQYfRJeYHuuDqJ59DPcrnGRHV16uYkA7g=w2400"},
     
     ]
+    export  default achievementData

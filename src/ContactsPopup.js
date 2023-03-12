@@ -5,10 +5,7 @@ import DialogActions from '@material-ui/core/DialogActions';
 import DialogContent from '@material-ui/core/DialogContent';
 import DialogContentText from '@material-ui/core/DialogContentText';
 import DialogTitle from '@material-ui/core/DialogTitle';
-
-
 import { withThemeContext } from './ThemeProvider';
-import { Link } from 'react-router-dom';
 import { Divider } from '@material-ui/core';
 import { makeStyles} from '@material-ui/core/styles';
 

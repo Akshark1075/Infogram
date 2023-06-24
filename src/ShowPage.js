@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   const currentIndex=projectList.indexOf(currentProject)
   function next(){history.push( `/projects/${projectList[currentIndex+1].projectName}`)}
 const previous=()=>history.push( `/projects/${projectList[currentIndex-1].projectName}`)
-const goHome=()=>history.push('/home')
+const goHome=()=>history.push('/')
   return (
     <Card classes={{root:classes.root, paper:classes.root}}>
           

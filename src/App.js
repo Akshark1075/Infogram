@@ -68,7 +68,7 @@ const bottomNavOptions=new Map([['home',0],['achievements',1],['skills',2]])
      
   
      
-    <Route exact path="/home" render={routeProps=>
+    <Route exact path="/" render={routeProps=>
 
         <>
            <Navbar/>
@@ -85,10 +85,9 @@ const bottomNavOptions=new Map([['home',0],['achievements',1],['skills',2]])
             <ChangeThemePopup/>
            </>}
 />
-      <Route exact path="/projects/:projectName" render={routeProps=><ShowPage projectList={projectList}/>}/>
+      <Route  path="/projects/:projectName" render={routeProps=><ShowPage projectList={projectList}/>}/>
    
  
-      <Route exact path="/">  <Redirect to="/home"/> </Route>
          
          </Switch>
 

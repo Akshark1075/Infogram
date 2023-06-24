@@ -1,7 +1,6 @@
 import React from 'react'
 import Slider from 'rc-slider';
 import './SkillsSliders.css'
-
 import CardActionArea from '@material-ui/core/CardActionArea';
 import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';

@@ -5,9 +5,12 @@ const skillData = [
       { name: "React JS", value: "80" },
       { name: "HTML", value: "80" },
       { name: "CSS/SASS/JSS", value: "80" },
+      { name: "Tailwind", value: "70" },
       { name: "JQuery", value: "60" },
       { name: "Bootstrap/ Material UI", value: "70" },
       { name: "Node JS -Express", value: "50" },
+      { name: "Zustand", value: "50" },
+      { name: "Redux", value: "40" },
       { name: "PWA", value: "60" },
       { name: "Mongo DB", value: "50" },
     ],
@@ -41,7 +44,7 @@ const skillData = [
     category: "Testing",
     skills: [
       { name: "Playwright", value: "80" },
-      { name: "React testing library", value: "70" },
+      { name: "Jest, Vi test", value: "80" },
     ],
   },
 ];

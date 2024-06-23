@@ -19,11 +19,14 @@ const skillData = [
     category: "Programming Languages",
     skills: [
       { name: "Javascript", value: "80" },
+      { name: "Typescript", value: "70" },
       { name: "Swift", value: "70" },
       { name: "C", value: "60" },
       { name: "C++", value: "50" },
+      { name: "C++", value: "50" },
       { name: "Python", value: "60" },
       { name: "SQL", value: "60" },
+      { name: "Chuck", value: "50" },
     ],
   },
   {
@@ -38,6 +41,7 @@ const skillData = [
     skills: [
       { name: "Adobe Photoshop", value: "40" },
       { name: "Adobe Illustrator", value: "40" },
+      { name: "Blender", value: "50" },
     ],
   },
   {

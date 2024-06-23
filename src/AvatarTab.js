@@ -8,6 +8,7 @@ import Typography from '@material-ui/core/Typography';
 import {Link} from 'react-router-dom'
 import getExp from './getExp';
 import { withThemeContext } from './ThemeProvider';
+import projectData from './projectData';
 const useStyles = makeStyles((theme) => ({
     root:{width:"100%"},
     avatarDiv:{
@@ -92,7 +93,7 @@ useEffect(() => {
     <div className={classes.highlightsContainer}>
     <div className={classes.highlights}>
     <Typography variant="h5"className={classes.smallBoldFont} style={{color:props.theme.theme==="light theme"?"":props.theme.themeProperties.otherColor}}>
-            11
+            {projectData.length}
         </Typography>
         <Typography variant="h6" className={classes.smallFont}>
              Projects
@@ -100,7 +101,7 @@ useEffect(() => {
     </div>
     <div className={classes.highlights} style={{"display":"flex","width":"70%"}}>
     <Typography variant="h5" className={classes.smallBoldFont}style={{color:props.theme.theme==="light theme"?"":props.theme.themeProperties.otherColor}}>
-            {getExp('2018-10-08')}
+            4 yrs 10 mos
         </Typography>
       <Typography variant="h6" className={classes.smallFont}>
         Work Exp

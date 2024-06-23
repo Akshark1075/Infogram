@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams, useHistory, Link } from 'react-router-dom';
 
 import {withThemeContext} from "./ThemeProvider"
 import { makeStyles} from '@material-ui/core/styles';
@@ -51,6 +51,7 @@ const goHome=()=>history.push('/')
           </div>
         
       <CardActionArea>
+        <Link to={currentProject.url} target="_blank">
         <CardMedia
           component="img"
         
@@ -58,6 +59,7 @@ const goHome=()=>history.push('/')
           alt={currentProject.projectName}
         
         />
+        </Link>
         <CardContent className={classes.root}>
           <Typography gutterBottom variant="h5" component="div" style={{color:"#f50057"}}>
             {currentProject.projectName}

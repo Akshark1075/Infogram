@@ -84,7 +84,7 @@ const projectData = [
     projectDescription:
       "This iOS application features multiple screens designed to showcase the players of the Chennai Super Kings, a franchise cricket team in the Indian Premier League based in Chennai. The app is exclusively tailored for iPhone deployment and operates solely in portrait mode. Compatibility is ensured for devices running iOS 15 and newer versions. Users can enjoy an interactive experience as they engage with the app, enabling them to create their dream team through the dynamic rearrangement of table rows.",
     projectThumbnail:
-      "https://lh3.googleusercontent.com/pw/AP1GczMBUbJ7U39jDQ0N5U9bkrT5Z7T0FML68O7RIBR5Oclgfd6gcmSiBt7ixp5BBt5IGVehtjiODZRKxbJBItbLWCEcEOvIX3QzP8ZSC4yxnLONkRz0Z1k=w2400",
+      "https://lh3.googleusercontent.com/pw/AP1GczM2K_2YXIddv99LreycasjjzswHTlXuiH_p_yrp3xUn082JGbuPMDSNhNbZjDQvIITuvpR8zBHlN362ciftxC3JNurqNwzdZRlupCftyH7jnBtVCwg=w2400",
     url: "NA",
     githubUrl: "https://github.com/Akshark1075/csk",
     responsive: "NA",

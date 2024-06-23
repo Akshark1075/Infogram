@@ -20,7 +20,7 @@ const projectData = [
       "Relive the good old days of playing video games with friends. This project is a recreation of the classic Super Mario video Game developed using html5 Canvas and Vanilla Javascript",
 
     projectThumbnail:
-      "https://lh3.googleusercontent.com/pw/AP1GczOGgDJp0V60Cj3XcKV6Z7uG6sDXzfxI_hHPkoaXzmZXek8rLOb41iGv3-GPmyQl8E04kJyYusZ0hmv5NGD-Rf6IXkS85uYHNXi7JDgaC15cyGVKCvU=w2400",
+      "https://lh3.googleusercontent.com/gYs8eNdfqiEESNvV6I-DTD7K0u5oP1mzkkFePXkcNCSYMrOkQNFGzY4qC8wPiFthJ5Igzt1F3y8So1JZEX9jAFidzDwqIDrNF12BI4_Pdi85CiK9l4egMenmY_CYPXhkQohMFxaK7w=w2400",
     url: "https://super-mario-game-ak.cyclic.app",
     githubUrl: "https://github.com/Akshark1075/Super-Mario",
     responsive: "No",
@@ -32,7 +32,8 @@ const projectData = [
     projectDescription:
       "Fists of Fury is a web app created with three.js and WebGL, that lets users reserve seats for robotic boxing tournaments. It offers an immersive, interactive experience by allowing users to navigate a virtual venue and book seats through a realistic 3D simulation.",
     projectThumbnail:
-      "https://lh3.googleusercontent.com/gYs8eNdfqiEESNvV6I-DTD7K0u5oP1mzkkFePXkcNCSYMrOkQNFGzY4qC8wPiFthJ5Igzt1F3y8So1JZEX9jAFidzDwqIDrNF12BI4_Pdi85CiK9l4egMenmY_CYPXhkQohMFxaK7w=w2400",
+      "https://lh3.googleusercontent.com/pw/AP1GczMvq_46hDcnq2s58wkBlmRRoQLvuqSf42IwrO2TGm1lIz59AF6RFy-y8tN4-Z5Sd__BKqSEeN6n54VMOzl0n7Vt-1IlrWxNCEctoBQBOWY-cfzVHvM=w2400",
+
     url: "https://cs1.ucc.ie/~akg2/labs/CS6105/assignment/src/",
     githubUrl: "https://github.com/Akshark1075/fists_of_fury",
     responsive: "No",
@@ -44,7 +45,7 @@ const projectData = [
     projectDescription:
       "A processing sketch that generates fractal patterns with customisable parameters, allowing users to overlay them with their own hand-drawn creations",
     projectThumbnail:
-      "https://lh3.googleusercontent.com/pw/AP1GczO7oUowUuRfHcvUYXi-L5mRDgB684hO3Au3HgZJ3eLXm7buYTex7PEmuYzDK5cXS9ocR0Nm5ld5cUsywUWZ59_9V3OGkIfkjWyD6prbvHfi6BvRHq4=w2400",
+      "https://lh3.googleusercontent.com/pw/AP1GczPAy9CLd1DlvEgcX-eE6-Me5wBc1O_WHlVhxDNrBfQvQCnUY_QDqC83TYdpAi1Vm9oXYXuPMUx5mrMV9ooCUA3eyNpJh3L63iIJG2kTL4gaoUUovB8=w2400",
     url: "NA",
     githubUrl: "https://github.com/Akshark1075/doodleHaven",
     responsive: "NA",
@@ -83,7 +84,7 @@ const projectData = [
     projectDescription:
       "This iOS application features multiple screens designed to showcase the players of the Chennai Super Kings, a franchise cricket team in the Indian Premier League based in Chennai. The app is exclusively tailored for iPhone deployment and operates solely in portrait mode. Compatibility is ensured for devices running iOS 15 and newer versions. Users can enjoy an interactive experience as they engage with the app, enabling them to create their dream team through the dynamic rearrangement of table rows.",
     projectThumbnail:
-      "https://lh3.googleusercontent.com/pw/AP1GczM5B67kH6SczkHO8KGapk5fJ7PaV3rYob1LtJJeTjlEIpGqjdSPIeNn7zZPrP5ZELnT0thX68HHIDoMFnjD48PU_pmdtguwzikQouVdNxj2asQLiH4=w2400",
+      "https://lh3.googleusercontent.com/pw/AP1GczMBUbJ7U39jDQ0N5U9bkrT5Z7T0FML68O7RIBR5Oclgfd6gcmSiBt7ixp5BBt5IGVehtjiODZRKxbJBItbLWCEcEOvIX3QzP8ZSC4yxnLONkRz0Z1k=w2400",
     url: "NA",
     githubUrl: "https://github.com/Akshark1075/csk",
     responsive: "NA",

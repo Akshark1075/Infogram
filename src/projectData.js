@@ -2,7 +2,7 @@ const projectData = [
   {
     projectName: "Infogram",
     shortDescription:
-      "Hi there! I'm Infogram. Want to know about Arvind? I know everything. Check me out",
+      "A React-based portfolio project with Material UI, mimicking Instagram's profile page with custom modifications",
     projectDescription:
       "Infogram! a portfolio project. One place to find all my projects. The application's user interface is inspired from Instagram and Linked In. It is developed using React JS utilizing the Material UI library. App is available in two themes 'Light' and 'Dark'",
     projectThumbnail:
@@ -13,15 +13,39 @@ const projectData = [
     compatibleDevices: "Desktops, Mobile",
   },
   {
-    projectName: "Super Mario",
+    projectName: "Beyond The Boundary",
+    shortDescription: "Immersive Cricket Viewing Experience",
+    projectDescription:
+      "A Progressive Web XR app using React and three.js as part of a master’s dissertation to address limitations of traditional sports broadcasts. 'Beyond the Boundary' enhances cricket viewing with real-time stats and customizable layouts across desktop, mobile, and AR headsets, providing a more immersive, interactive experience.",
+    projectThumbnail:
+      "https://lh3.googleusercontent.com/pw/AP1GczOiVMd8IFRAP8C9kGM_E85Kf3sq6rr1OApjooFyl1UE0_bERwYNZCaHTGL7Gt22-rmqAljteuTXNQ9jf2j47a3aKX6jUWx9-rhQ_P3P2GB3LLe0Bg4=w2400",
+    url: "https://beyond-the-boundary.onrender.com/",
+    githubUrl: "https://github.com/Akshark1075/beyond-the-boundary",
+    responsive: "Yes",
+    compatibleDevices: "Desktops, Mobile, AR Headset",
+  },
+  {
+    projectName: "Visual Array Test",
     shortDescription:
-      "Recreation of the classic Super Mario video Game. Relive your good old days!",
+      "Visual Array Experiment using three.js to support research on the impact of spatial audio in virtual reality learning environments.",
+    projectDescription:
+      "Assisted Mr. Vincent Russel, a PhD student at University College Cork, in developing a Visual Array Experiment using three.js for his research on the benefits of spatial audio in virtual reality learning experiences, under the supervision of Mr. David Murphy, Lecturer and Programme Coordinator for the MSc in Interactive Media",
+    projectThumbnail:
+      "https://lh3.googleusercontent.com/pw/AP1GczO4eIYWAxMvFX4iT37v9Dew7tMwSNY1K8PDW5oqRl9z08MdZzgqB_Me-SdIo5pNjYVw9XN09BUrwcKHUfCwPEBQ1oTg8FuYLAfNahlckHB7hC_JP4E=w2400",
+    url: "https://cs1.ucc.ie/~akg2/Experiment3/",
+    githubUrl: "NA",
+    responsive: "No",
+    compatibleDevices: "AR Headsets",
+  },
+  {
+    projectName: "Super Mario",
+    shortDescription: "Recreation of the classic Super Mario video Game",
     projectDescription:
       "Relive the good old days of playing video games with friends. This project is a recreation of the classic Super Mario video Game developed using html5 Canvas and Vanilla Javascript",
 
     projectThumbnail:
       "https://lh3.googleusercontent.com/gYs8eNdfqiEESNvV6I-DTD7K0u5oP1mzkkFePXkcNCSYMrOkQNFGzY4qC8wPiFthJ5Igzt1F3y8So1JZEX9jAFidzDwqIDrNF12BI4_Pdi85CiK9l4egMenmY_CYPXhkQohMFxaK7w=w2400",
-    url: "https://super-mario-game-ak.cyclic.app",
+    url: "https://super-mario-production.up.railway.app/",
     githubUrl: "https://github.com/Akshark1075/Super-Mario",
     responsive: "No",
     compatibleDevices: "Desktops",
@@ -46,7 +70,7 @@ const projectData = [
       "A processing sketch that generates fractal patterns with customisable parameters, allowing users to overlay them with their own hand-drawn creations",
     projectThumbnail:
       "https://lh3.googleusercontent.com/pw/AP1GczPAy9CLd1DlvEgcX-eE6-Me5wBc1O_WHlVhxDNrBfQvQCnUY_QDqC83TYdpAi1Vm9oXYXuPMUx5mrMV9ooCUA3eyNpJh3L63iIJG2kTL4gaoUUovB8=w2400",
-    url: "NA",
+    url: "https://github.com/Akshark1075/doodleHaven",
     githubUrl: "https://github.com/Akshark1075/doodleHaven",
     responsive: "NA",
     compatibleDevices: "NA",
@@ -56,10 +80,10 @@ const projectData = [
     shortDescription:
       "A Fantasy league application created for local football club. Pick your team today! They score, you win!",
     projectDescription:
-      "Ever played Premier League's Fantasy Premier League? RPU FC is a Fantasy league application created for RPU football club developed using HTML5, CSS3,JS, Node JS(Express), Mongo db. It was inspired from Premier League's FPL app. You need to pick a team of 11 players everyday. You will be awarded points based on the performance of the player selected in current day's game. The points of all the users will be tracked under the points table, which determines the winner of the month. The app uses a external db hosted on Mongo Atlas.",
+      "RPU FC is a fantasy league application for the RPU Football Club, inspired by the Premier League’s Fantasy Football. Developed using HTML5, CSS3, JavaScript, Node.js (Express), and MongoDB, the app allows users to select a team of 11 players daily, awarding points based on the players' real-time performance in that day’s matches.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/hrWMEipzUiktZ7gPo6XD0KlW-P5pAuiRm2gFRylo9lylfUopS94YFjEmUlYOeFbEu2fu-sjx7U3fCElcHRzZbs77G5e36nH9_kA-fwIdtdWtWMQx4L03fuh98SLkEvr_KOIat_FAVA=w2400",
-    url: "https://rpu-fpl-ak.cyclic.app",
+    url: "https://rpufpl-production.up.railway.app/",
     githubUrl: "https://github.com/Akshark1075/RPU_FPL",
     responsive: "Yes",
     compatibleDevices: "Desktops, Mobile",
@@ -85,7 +109,7 @@ const projectData = [
       "This iOS application features multiple screens designed to showcase the players of the Chennai Super Kings, a franchise cricket team in the Indian Premier League based in Chennai. The app is exclusively tailored for iPhone deployment and operates solely in portrait mode. Compatibility is ensured for devices running iOS 15 and newer versions. Users can enjoy an interactive experience as they engage with the app, enabling them to create their dream team through the dynamic rearrangement of table rows.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/pw/AP1GczM2K_2YXIddv99LreycasjjzswHTlXuiH_p_yrp3xUn082JGbuPMDSNhNbZjDQvIITuvpR8zBHlN362ciftxC3JNurqNwzdZRlupCftyH7jnBtVCwg=w2400",
-    url: "NA",
+    url: "https://github.com/Akshark1075/csk",
     githubUrl: "https://github.com/Akshark1075/csk",
     responsive: "NA",
     compatibleDevices: "iOS",
@@ -111,7 +135,7 @@ const projectData = [
       "Lights out is an interactive game app developed using react js. It consists of a 5 by 5 grid of lights. When the game starts, a random number of these lights is switched on. Pressing any of the lights will toggle it and the adjacent lights.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/MwreB4TqRtSsoeMNi-MB6JIQgB9v7zILsi7ScBUtKDqUGxRMXBkkGKuj7Y07DIayqk90zxm4dyCe3uTNEXejUS6D1zd2O-e0di6uTWePtL5t2HCsUa3dKugeaMzes2ANnVM6n2jGUw=w2400",
-    url: "https://lights-out-ak.onrender.com",
+    url: "https://lights-out-react.onrender.com",
     githubUrl: "https://github.com/Akshark1075/Lights-Out_React",
     responsive: "No",
     compatibleDevices: "Desktops",
@@ -158,10 +182,10 @@ const projectData = [
     projectName: "2048",
     shortDescription: "Join the tiles, get to 2048!",
     projectDescription:
-      "2048 is  javascript based app played on a plain 4x4 grid, with numbered tiles that slide when a player moves them using the four arrow keys.Every turn, a new tile randomly appears in an empty spot on the board with a value of either 2 or 4. Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided.",
+      "2048 is javascript based app played on a plain 4x4 grid, with numbered tiles that slide when a player moves them using the four arrow keys.Every turn, a new tile randomly appears in an empty spot on the board with a value of either 2 or 4. Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/TCp27N22Zf9EtWpPYRBsqHpEXuaF-eI81NwJWWLx9WKVdxKBf7UuTqO5y5WPxLjaeNFXppOPjWhavDiw4rLT3nSarV4HPXttCrgk2hKAF81ud9jjpBwyv3BMz4B55PFnWoKibJ0izg=w2400",
-    url: "https://2048-game-ak.cyclic.app",
+    url: "https://2048-production-9f57.up.railway.app/",
     githubUrl: "https://github.com/Akshark1075/2048-Game",
     responsive: "Yes",
     compatibleDevices: "Desktops, Mobile",

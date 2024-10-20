@@ -135,7 +135,7 @@ const projectData = [
       "Lights out is an interactive game app developed using react js. It consists of a 5 by 5 grid of lights. When the game starts, a random number of these lights is switched on. Pressing any of the lights will toggle it and the adjacent lights.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/MwreB4TqRtSsoeMNi-MB6JIQgB9v7zILsi7ScBUtKDqUGxRMXBkkGKuj7Y07DIayqk90zxm4dyCe3uTNEXejUS6D1zd2O-e0di6uTWePtL5t2HCsUa3dKugeaMzes2ANnVM6n2jGUw=w2400",
-    url: "https://lights-out-react.onrender.com",
+    url: "https://lights-out-ak.onrender.com",
     githubUrl: "https://github.com/Akshark1075/Lights-Out_React",
     responsive: "No",
     compatibleDevices: "Desktops",

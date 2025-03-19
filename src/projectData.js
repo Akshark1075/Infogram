@@ -45,7 +45,7 @@ const projectData = [
 
     projectThumbnail:
       "https://lh3.googleusercontent.com/gYs8eNdfqiEESNvV6I-DTD7K0u5oP1mzkkFePXkcNCSYMrOkQNFGzY4qC8wPiFthJ5Igzt1F3y8So1JZEX9jAFidzDwqIDrNF12BI4_Pdi85CiK9l4egMenmY_CYPXhkQohMFxaK7w=w2400",
-    url: "https://super-mario-production.up.railway.app/",
+    url: "https://super-mario-9gp1.onrender.com",
     githubUrl: "https://github.com/Akshark1075/Super-Mario",
     responsive: "No",
     compatibleDevices: "Desktops",
@@ -83,7 +83,7 @@ const projectData = [
       "RPU FC is a fantasy league application for the RPU Football Club, inspired by the Premier League’s Fantasy Football. Developed using HTML5, CSS3, JavaScript, Node.js (Express), and MongoDB, the app allows users to select a team of 11 players daily, awarding points based on the players' real-time performance in that day’s matches.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/hrWMEipzUiktZ7gPo6XD0KlW-P5pAuiRm2gFRylo9lylfUopS94YFjEmUlYOeFbEu2fu-sjx7U3fCElcHRzZbs77G5e36nH9_kA-fwIdtdWtWMQx4L03fuh98SLkEvr_KOIat_FAVA=w2400",
-    url: "https://rpufpl-production.up.railway.app/",
+    url: "https://rpu-fpl.onrender.com",
     githubUrl: "https://github.com/Akshark1075/RPU_FPL",
     responsive: "Yes",
     compatibleDevices: "Desktops, Mobile",
@@ -185,7 +185,7 @@ const projectData = [
       "2048 is javascript based app played on a plain 4x4 grid, with numbered tiles that slide when a player moves them using the four arrow keys.Every turn, a new tile randomly appears in an empty spot on the board with a value of either 2 or 4. Tiles slide as far as possible in the chosen direction until they are stopped by either another tile or the edge of the grid. If two tiles of the same number collide while moving, they will merge into a tile with the total value of the two tiles that collided.",
     projectThumbnail:
       "https://lh3.googleusercontent.com/TCp27N22Zf9EtWpPYRBsqHpEXuaF-eI81NwJWWLx9WKVdxKBf7UuTqO5y5WPxLjaeNFXppOPjWhavDiw4rLT3nSarV4HPXttCrgk2hKAF81ud9jjpBwyv3BMz4B55PFnWoKibJ0izg=w2400",
-    url: "https://2048-production-9f57.up.railway.app/",
+    url: "https://two048-game-bow9.onrender.com",
     githubUrl: "https://github.com/Akshark1075/2048-Game",
     responsive: "Yes",
     compatibleDevices: "Desktops, Mobile",
